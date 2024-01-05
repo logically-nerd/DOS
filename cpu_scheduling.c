@@ -82,6 +82,7 @@ int main(void)
     }
 out_of_program:
     printf("Thank you for using the cpu scheduling program\n");
+    return 0;
 }
 
 double get_process(process *p, int n)

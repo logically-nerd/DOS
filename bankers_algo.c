@@ -87,7 +87,7 @@ int *get_ps(process *ps, int ps_count, int res_count)
 
 int print_ps(process *ps, int ps_count, int res_count)
 {
-    printf("Process%*sAllocation%*sMax%*sRequired\n", res_count * 3, "", res_count * 5, "", res_count * 5, "");
+    printf("\nProcess%*sAllocation%*sMax%*sRequired\n", res_count * 3, "", res_count * 6, "", res_count * 7, "");
     printf("\t\t");
     for (int i = 0; i < 3; i++)
     {
